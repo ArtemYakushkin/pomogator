@@ -77,7 +77,20 @@ ul {
   color: #afb1b8;
 }
 
+.site {
+  padding-left: 15px;
+}
+
 .indent {
-  height: 100px;
+  height: 20px;
   background-color: rgba(175, 177, 184, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+.div {
+  border: 5px rgba(175, 177, 184, 0.1) solid;
 }
