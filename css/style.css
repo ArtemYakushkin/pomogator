@@ -1,0 +1,83 @@
+/* Стили для всей страницы */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+}
+
+/* Отключить точки в списке */
+
+.list {
+  list-style: none;
+}
+
+/* Отключить стили для ссылок */
+
+.link {
+  text-decoration: none;
+}
+
+/* Скрыть заголовок */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Для частых переменных в проекте */
+
+:root {
+  --brand-color: #2196f3;
+}
+
+/* Обнуление отступов для абзацев и заголовков */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Обнуление отступов для списков */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Для общего размера контента */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.site .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #afb1b8;
+}
+
+.indent {
+  height: 100px;
+  background-color: rgba(175, 177, 184, 0.1);
+}
