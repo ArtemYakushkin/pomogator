@@ -2,7 +2,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: rgb(255, 225, 0);
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: #2f303a;
@@ -74,7 +74,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #afb1b8;
+  color: #00fd2a;
 }
 
 .site {
@@ -93,4 +93,8 @@ h2 {
 
 .div {
   border: 5px rgba(175, 177, 184, 0.1) solid;
+}
+
+li {
+  margin-bottom: 10px;
 }
